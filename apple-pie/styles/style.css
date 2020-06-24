@@ -1,3 +1,13 @@
+body {
+  margin: 0;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
+header {
+  padding: 0 1rem;
+}
+
 h1 {
   color: white;
   background-image: url(/apple-pie/images/apple-pie.jpg);
@@ -5,60 +15,41 @@ h1 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
-  height: 250px;
   text-align: center;
-  padding-top: 200px;
+  padding: 7rem 3rem;
   font-size: 70px;
+}
+
+section {
+  margin: 0 auto;
+  padding: 0 8rem;
 }
 
 p {
   font-size: 22px;
-  text-align: center;
-  width: 50%;
-  margin-left: 500px;
-  margin-right: -300px;
-  letter-spacing: 0.5px;
 }
 
-header img {
-  margin-left: 41%;
-  width: 400px;
+.image-container {
+  width: 100%;
 }
 
-hr {
-  width: 80%;
-}
-
-.infoText img {
-  width: 350px;
-  margin-left: 40%;
-}
-
-.infoText {
-  margin-left: 100px;
-}
-
-.infoText h2 {
-  margin-top: 50px;
-  margin-left: 170px;
-  width: 30%;
+.info,
+.preparation {
+  display: block;
+  width: 45%;
+  max-width: 350px;
+  margin: 0 auto;
 }
 
 .infoText ul {
-  margin-left: 140px;
   list-style-type: none;
-  font-size: 20px;
-  letter-spacing: 0.5px;
+  line-height: 25px;
 }
 
 .infoText ol {
-  margin-left: 140px;
-  margin-bottom: 50px;
-  width: 80%;
-  font-size: 20px;
-  letter-spacing: 0.5px;
   list-style: none;
   counter-reset: list;
+  line-height: 25px;
 }
 
 ul li::before {
